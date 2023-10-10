@@ -41,6 +41,7 @@ CREATE_OBJ_RESPONSE_DIDL = '''<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-
 
 X_BACKUP_DONE = '"urn:schemas-upnp-org:service:ContentDirectory:1#X_BACKUP_DONE"'
 X_BACKUP_START = '"urn:schemas-upnp-org:service:ContentDirectory:1#X_BACKUP_START"'
+X_BROWSE = '"urn:schemas-upnp-org:service:ContentDirectory:1#Browse"'
 
 X_BACKUP_RESPONSE = '''<?xml version="1.0"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
@@ -54,9 +55,9 @@ class Backup(object):
 
   backup_objects = {}
 
-  def __init__(self, config_file=None):
+  def __init__(self):
     self.logger = logging.getLogger('pc_autobackup.mediaserver.backup')
-    self.config = common.LoadOrCreateConfig(config_file)
+    self.config = common.LoadOrCreateConfig()
 
   def _GenerateObjectID(self, obj_date, length=10):
     """Generate an ObjectID for a new backup item.
@@ -153,10 +154,9 @@ class MediaServer(Resource):
   clients = {}
   isLeaf = True
 
-  def __init__(self, config_file=None):
+  def __init__(self):
     self.logger = logging.getLogger('pc_autobackup.mediaserver')
-    self.config = common.LoadOrCreateConfig(config_file)
-    self.config_file = config_file
+    self.config = common.LoadOrCreateConfig()
 
   def render_GET(self, request):
     if request.path != '/favicon.ico':
@@ -166,7 +166,6 @@ class MediaServer(Resource):
                         request.getClientIP(), request.args)
       self.logger.debug('Request headers for %s from %s: %s', request.path,
                         request.getClientIP(), request.args)
-      self.logger.debug('Request came on interface %s', request.getHost().host)
 
     if request.path == '/DMS/SamsungDmsDesc.xml':
       self.logger.info('New connection from %s (%s)', request.getClientIP(),
@@ -174,10 +173,10 @@ class MediaServer(Resource):
       self.clients[request.getClientIP()] = request.getHeader('user-agent')
       response = self.GetDMSDescriptionResponse()
     elif request.path.split('/')[-1] == 'ContentDirectory1.xml':
-      with open(os.path.join(common.BASEDIR, 'DMS', 'ContentDirectory1.xml'), 'r') as xml_data:
+      with open(os.path.join('DMS', 'ContentDirectory1.xml'), 'r') as xml_data:
         response = xml_data.read()
     elif request.path.split('/')[-1] == 'ConnectionManager1.xml':
-      with open(os.path.join(common.BASEDIR, 'DMS', 'ConnectionManager1.xml'), 'r') as xml_data:
+      with open(os.path.join('DMS', 'ConnectionManager1.xml'), 'r') as xml_data:
         response = xml_data.read()
     else:
       self.logger.error('Unhandled GET request from %s: %s',
@@ -188,7 +187,8 @@ class MediaServer(Resource):
     if isinstance(response, unicode):
       response = response.encode('utf-8')
 
-    request.setHeader("Content-Type", "text/xml; charset=utf-8")
+    request.setHeader("Content-Type", 'text/xml; charset="UTF-8"')
+    request.setHeader("SERVER", 'DMRND/0.5')
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
     return response
@@ -198,7 +198,6 @@ class MediaServer(Resource):
                       request.getClientIP(), request.args)
     self.logger.debug('Request headers for %s from %s: %s', request.path,
                       request.getClientIP(), request.args)
-    self.logger.debug('Request came on interface %s', request.getHost().host)
 
     if request.path == '/cd/content':
       response = self.ReceiveUpload(request)
@@ -213,7 +212,8 @@ class MediaServer(Resource):
     if isinstance(response, unicode):
       response = response.encode('utf-8')
 
-    request.setHeader("Content-Type", "text/xml; charset=utf-8")
+    request.setHeader("Content-Type", 'text/xml; charset="UTF-8"')
+    request.setHeader("SERVER", 'DMRND/0.5')
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
     return response
@@ -259,7 +259,7 @@ class MediaServer(Resource):
           request.setResponseCode(404)
           return ''
 
-        backup = Backup(self.config_file)
+        backup = Backup()
         obj_id = backup.CreateObject(obj_class, obj_date, obj_name, obj_size,
                                      obj_subtype, obj_type)
         obj_details = backup.GetObjectDetails(obj_id)
@@ -268,7 +268,7 @@ class MediaServer(Resource):
                          obj_size)
 
         response_dict = {
-            'interface': request.getHost().host,
+            'interface': self.config.get('AUTOBACKUP', 'default_interface'),
             'obj_class': obj_class,
             'obj_id': obj_id,
             'obj_size': obj_size,
@@ -283,6 +283,8 @@ class MediaServer(Resource):
       self.logger.info('Backup complete for %s (%s)', request.getClientIP(),
                        self.clients[request.getClientIP()])
       response = X_BACKUP_RESPONSE % 'DONE'
+    elif soapaction == X_BROWSE:
+      print "Got a new soapaction browse - Ignoring"
     else:
       self.logger.error('Unhandled soapaction: %s', soapaction)
       request.setResponseCode(404)
@@ -296,7 +298,7 @@ class MediaServer(Resource):
     Returns:
       A string containing the XML contents
     """
-    with open(os.path.join(common.BASEDIR, 'DMS', 'SamsungDmsDesc.xml'), 'r') as dms_desc:
+    with open(os.path.join('DMS', 'SamsungDmsDesc.xml'), 'r') as dms_desc:
       response = dms_desc.read() % {
           'friendly_name': self.config.get('AUTOBACKUP', 'server_name'),
           'uuid': self.config.get('AUTOBACKUP', 'uuid')}
@@ -375,7 +377,7 @@ class MediaServer(Resource):
     response = ''
 
     obj_id = request.args['didx'][0].split('=')[1]
-    backup = Backup(self.config_file)
+    backup = Backup()
 
     data = request.content.read()
     backup.WriteObject(obj_id, data)
