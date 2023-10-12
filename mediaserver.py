@@ -131,8 +131,6 @@ class Backup(object):
     obj_dir = [self.config.get('AUTOBACKUP', 'backup_dir')]
 
     if self.config.getboolean('AUTOBACKUP', 'create_date_subdir'):
-      #print(obj_id)
-      #print(self.backup_objects)
       obj_dir.append(obj_details['obj_date'])
 
     obj_dir = os.path.join(*obj_dir)
@@ -162,9 +160,7 @@ class MediaServer(Resource):
     self.config_file = config_file
 
   def render_GET(self, request):
-    #print(f"{request}")
     request.path = request.path.decode("UTF-8")
-    #print(f"{request.path.split('/')[-1]}")
     if request.path != '/favicon.ico':
       self.logger.debug('[%s] GET request for %s', request.getClientIP(),
                         request.path)
@@ -180,11 +176,9 @@ class MediaServer(Resource):
       self.clients[request.getClientIP()] = request.getHeader('user-agent')
       response = self.GetDMSDescriptionResponse()
     elif request.path.split('/')[-1] == 'ContentDirectory1.xml':
-      #print(f"found {request.path.split('/')[-1]}")
       with open(os.path.join(common.BASEDIR, 'DMS', 'ContentDirectory1.xml'), 'r') as xml_data:
         response = xml_data.read()
     elif request.path.split('/')[-1] == 'ConnectionManager1.xml':
-      #print(f"found {request.path.split('/')[-1]}")
       with open(os.path.join(common.BASEDIR, 'DMS', 'ConnectionManager1.xml'), 'r') as xml_data:
         response = xml_data.read()
     else:
@@ -194,13 +188,11 @@ class MediaServer(Resource):
       return ''
 
     if isinstance(response, str):
-      #print(f"encoding {type(response)}")
       response = response.encode('utf-8')
 
     request.setHeader("Content-Type", "text/xml; charset=utf-8")
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
-    #print(f"Returning {response}")
     return response
 
   def render_POST(self, request):
@@ -261,7 +253,6 @@ class MediaServer(Resource):
       m = CREATE_OBJ_DIDL.search(soap_xml)
       if m:
         parsed_data = self.ParseDIDL(m.group('didl'))
-        #print(f"parsed data {parsed_data}")
         obj_class = parsed_data.get('class')
         obj_date = parsed_data.get('date')
         obj_name = parsed_data.get('name')
@@ -294,7 +285,6 @@ class MediaServer(Resource):
 
         didl = CREATE_OBJ_RESPONSE_DIDL % response_dict
         response_dict['didl'] = common.EscapeHTML(didl)
-        #print(f"response dict {response_dict}")
         response = CREATE_OBJ_RESPONSE % response_dict
     elif soapaction == X_BACKUP_DONE:
       print(self.clients)
@@ -348,7 +338,6 @@ class MediaServer(Resource):
     Returns:
       A dict containing the item's elements
     """
-    #print(f"didl {didl}")
     parser = html
     didl = parser.unescape(didl)
 
