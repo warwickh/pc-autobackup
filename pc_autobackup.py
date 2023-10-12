@@ -14,6 +14,7 @@ import re
 import socket
 import sys
 import uuid
+from pathlib import Path
 
 from twisted.internet import reactor
 from twisted.web.server import Site
@@ -119,7 +120,7 @@ def ImportCameraConfig(mountpoint,config_file=None):
 
       config.set('AUTOBACKUP', 'server_name', friendly_name)
       config.set('AUTOBACKUP', 'uuid', uuid)
-      with open(config_file, 'wb') as file:
+      with open(config_file, 'w') as file:
         logger.info('Saving server configuration')
         try:
           config.write(file)
@@ -152,11 +153,12 @@ def UpdateCameraConfig(mountpoint, create_desc_file=False, config_file=None):
   desc_file = os.path.join(mountpoint, camera_config['desc_file'])
 
   if create_desc_file:
+    Path(desc_file).parent.mkdir(parents=True, exist_ok=True)
     with open(desc_file, 'w+') as f:
       logger.info('Creating %s', desc_file)
 
   if os.path.isfile(desc_file):
-    with open(desc_file, 'wb') as f:
+    with open(desc_file, 'w') as f:
       config = common.LoadOrCreateConfig(config_file)
       ini_params = {'mac_address': mac_address,
                     'server_name': config.get('AUTOBACKUP', 'server_name'),
@@ -208,7 +210,7 @@ def main():
   if options.quiet:
     log_opts['level'] = logging.WARN
   if options.debug:
-    print 'enabling debug'
+    print('enabling debug')
     lf_log_opts['level'] = logging.DEBUG
 
   logger = logging.getLogger('pc_autobackup')
@@ -251,7 +253,7 @@ def main():
     update_config = True
 
   if update_config:
-    with open(options.config_file, 'wb') as config_file:
+    with open(options.config_file, 'w') as config_file:
       config.write(config_file)
 
   if options.create_camera_config:

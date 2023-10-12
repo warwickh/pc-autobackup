@@ -5,7 +5,7 @@
 
 __author__ = 'jeff@rebeiro.net (Jeff Rebeiro)'
 
-import HTMLParser
+import html
 import logging
 import os
 import random
@@ -68,8 +68,8 @@ class Backup(object):
     Returns:
       A tuple containing the parent id and the object id
     """
-    chars = string.letters + string.digits
-    rand_chars = ''.join(random.choice(chars) for i in xrange(length))
+    chars = string.ascii_letters + string.digits
+    rand_chars = ''.join(random.choice(chars) for i in range(length))
     parent_id = 'UP_%s' % obj_date
     obj_id = '%s_%s' % (parent_id, rand_chars)
     return (parent_id, obj_id)
@@ -125,11 +125,14 @@ class Backup(object):
       obj_id: A string containing the object to write
       data: The data to write to disk
     """
+    obj_id = obj_id.decode('UTF-8')
     obj_details = self.GetObjectDetails(obj_id)
 
     obj_dir = [self.config.get('AUTOBACKUP', 'backup_dir')]
 
     if self.config.getboolean('AUTOBACKUP', 'create_date_subdir'):
+      #print(obj_id)
+      #print(self.backup_objects)
       obj_dir.append(obj_details['obj_date'])
 
     obj_dir = os.path.join(*obj_dir)
@@ -159,6 +162,9 @@ class MediaServer(Resource):
     self.config_file = config_file
 
   def render_GET(self, request):
+    #print(f"{request}")
+    request.path = request.path.decode("UTF-8")
+    #print(f"{request.path.split('/')[-1]}")
     if request.path != '/favicon.ico':
       self.logger.debug('[%s] GET request for %s', request.getClientIP(),
                         request.path)
@@ -174,9 +180,11 @@ class MediaServer(Resource):
       self.clients[request.getClientIP()] = request.getHeader('user-agent')
       response = self.GetDMSDescriptionResponse()
     elif request.path.split('/')[-1] == 'ContentDirectory1.xml':
+      #print(f"found {request.path.split('/')[-1]}")
       with open(os.path.join(common.BASEDIR, 'DMS', 'ContentDirectory1.xml'), 'r') as xml_data:
         response = xml_data.read()
     elif request.path.split('/')[-1] == 'ConnectionManager1.xml':
+      #print(f"found {request.path.split('/')[-1]}")
       with open(os.path.join(common.BASEDIR, 'DMS', 'ConnectionManager1.xml'), 'r') as xml_data:
         response = xml_data.read()
     else:
@@ -185,15 +193,19 @@ class MediaServer(Resource):
       request.setResponseCode(404)
       return ''
 
-    if isinstance(response, unicode):
+    if isinstance(response, str):
+      #print(f"encoding {type(response)}")
       response = response.encode('utf-8')
 
     request.setHeader("Content-Type", "text/xml; charset=utf-8")
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
+    #print(f"Returning {response}")
     return response
 
   def render_POST(self, request):
+    request.path = request.path.decode("UTF-8")
+    print(f"New post at {request.path}")
     self.logger.debug('Request args for %s from %s: %s', request.path,
                       request.getClientIP(), request.args)
     self.logger.debug('Request headers for %s from %s: %s', request.path,
@@ -204,18 +216,20 @@ class MediaServer(Resource):
       response = self.ReceiveUpload(request)
     elif request.path == '/upnp/control/ContentDirectory1':
       response = self.GetContentDirectoryResponse(request)
+      print(f"Got a response for dir {response}")
     else:
       self.logger.error('Unhandled POST request from %s: %s',
                         request.getClientIP(), request.path)
       request.setResponseCode(404)
       return ''
 
-    if isinstance(response, unicode):
+    if isinstance(response, str):
       response = response.encode('utf-8')
 
     request.setHeader("Content-Type", "text/xml; charset=utf-8")
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
+    print(f"Got response, is it logged????? {response}")
     return response
 
   def GetContentDirectoryResponse(self, request):
@@ -234,18 +248,18 @@ class MediaServer(Resource):
     request.content.seek(0)
 
     soapaction = request.getHeader('soapaction')
-
+    print(f"soapaction {soapaction}")
     if soapaction == X_BACKUP_START:
       self.logger.info('Starting backup for %s (%s)', request.getClientIP(),
                        self.clients[request.getClientIP()])
       response = X_BACKUP_RESPONSE % 'START'
     elif soapaction == CREATE_OBJ:
-      soap_xml = request.content.read()
+      soap_xml = request.content.read().decode('UTF-8')
 
       m = CREATE_OBJ_DIDL.search(soap_xml)
       if m:
         parsed_data = self.ParseDIDL(m.group('didl'))
-
+        #print(f"parsed data {parsed_data}")
         obj_class = parsed_data.get('class')
         obj_date = parsed_data.get('date')
         obj_name = parsed_data.get('name')
@@ -278,10 +292,11 @@ class MediaServer(Resource):
 
         didl = CREATE_OBJ_RESPONSE_DIDL % response_dict
         response_dict['didl'] = common.EscapeHTML(didl)
+        #print(f"response dict {response_dict}")
         response = CREATE_OBJ_RESPONSE % response_dict
     elif soapaction == X_BACKUP_DONE:
-      self.logger.info('Backup complete for %s (%s)', request.getClientIP(),
-                       self.clients[request.getClientIP()])
+      print(self.clients)
+      self.logger.info(f'Backup complete for {request.getClientIP()} ({self.clients[request.getClientIP()]})')
       response = X_BACKUP_RESPONSE % 'DONE'
     else:
       self.logger.error('Unhandled soapaction: %s', soapaction)
@@ -331,7 +346,8 @@ class MediaServer(Resource):
     Returns:
       A dict containing the item's elements
     """
-    parser = HTMLParser.HTMLParser()
+    #print(f"didl {didl}")
+    parser = html
     didl = parser.unescape(didl)
 
     didl_elements = {}
@@ -372,9 +388,10 @@ class MediaServer(Resource):
     Returns:
       An empty string
     """
-    response = ''
-
-    obj_id = request.args['didx'][0].split('=')[1]
+    response = '',
+    #for r in request.args:
+    #    print(r)
+    obj_id = request.args[b'didx'][0].split(b'=')[1]
     backup = Backup(self.config_file)
 
     data = request.content.read()

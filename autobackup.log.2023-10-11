@@ -1,0 +1,708 @@
+[10/11/2023 11:51 AM][pc_autobackup.common] INFO:Creating configuration file /home/warwickh/.pc_autobackup.cfg
+[10/11/2023 11:51 AM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 11:51 AM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 11:53 AM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 11:53 AM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 11:53 AM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 11:53 AM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 11:55 AM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 11:55 AM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 11:55 AM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 11:55 AM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:06 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:06 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:06 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:06 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:06 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:06 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:06 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:06 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:07 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:07 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:07 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:07 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:13 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:13 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:13 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:13 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:36 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:36 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:36 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:36 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:37 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:37 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:37 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:37 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:46 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:46 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:46 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:46 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:47 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:47 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:47 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:47 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:48 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:48 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:48 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:48 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:49 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:49 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:49 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:49 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:51 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:51 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:51 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:51 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:54 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:54 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:54 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:54 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 12:58 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 12:58 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 12:58 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 12:58 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:01 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:01 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:01 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:01 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:01 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:01 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:01 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:01 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:02 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:02 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:02 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:02 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:04 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:04 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:04 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:04 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:06 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:06 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:06 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:06 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:07 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:07 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:07 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:07 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:08 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:08 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:08 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:08 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:09 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:09 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:09 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:09 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:10 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:10 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:10 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:10 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:11 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:46164
+[10/11/2023 01:11 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:51478
+[10/11/2023 01:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:60386
+[10/11/2023 01:13 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:13 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:13 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:13 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:56150
+[10/11/2023 01:14 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:43811
+[10/11/2023 01:14 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:45889
+[10/11/2023 01:15 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:47194
+[10/11/2023 01:15 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:48794
+[10/11/2023 01:16 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:16 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:16 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:16 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:16 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:46282
+[10/11/2023 01:16 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:60258
+[10/11/2023 01:17 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:17 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:17 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:17 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:17 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:46962
+[10/11/2023 01:19 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:19 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:19 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:19 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:19 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:54576
+[10/11/2023 01:20 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:51370
+[10/11/2023 01:20 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:59575
+[10/11/2023 01:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:42116
+[10/11/2023 01:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:47785
+[10/11/2023 01:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:59238
+[10/11/2023 01:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:56590
+[10/11/2023 01:23 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:45625
+[10/11/2023 01:24 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:24 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:24 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:24 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:24 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:43837
+[10/11/2023 01:24 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:25 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:50751
+[10/11/2023 01:25 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:25 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:53128
+[10/11/2023 01:25 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:26 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:60046
+[10/11/2023 01:26 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:26 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:54312
+[10/11/2023 01:26 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:27 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:42081
+[10/11/2023 01:27 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:27 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:54716
+[10/11/2023 01:27 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:27 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:27 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:27 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:27 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:28 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:56598
+[10/11/2023 01:28 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:28 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:46253
+[10/11/2023 01:28 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:29 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:41649
+[10/11/2023 01:29 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:29 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:29 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:29 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:29 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:29 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:53474
+[10/11/2023 01:29 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:30 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:41123
+[10/11/2023 01:30 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:30 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.45:55907
+[10/11/2023 01:30 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.45 (Allegro-Software-WebClient/5.40b1 DLNADOC/1.50)
+[10/11/2023 01:34 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:34 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:34 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:34 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:35 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:35 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:35 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:35 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:36 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:36 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:36 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:36 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:36 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:37 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:37 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:37 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:37 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:37 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:42 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:42 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:42 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:42 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:42 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:45 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:45 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:45 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:45 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:45 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:46 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:46 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:46 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:46 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:46 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:47 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:47 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:47 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:47 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:48 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:50 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:50 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:50 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:50 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:51 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:51 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:51 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:51 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 01:52 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 01:52 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 01:52 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 01:52 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 01:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 01:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 01:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 01:52 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:07 PM][pc_autobackup] INFO:Creating /home/warwickh/camera/dlna_web_root/SAMSUNGAutoBackupDESC.ini
+[10/11/2023 02:08 PM][pc_autobackup] INFO:Creating /home/warwickh/camera/dlna_web_root/SAMSUNGAutoBackupDESC.ini
+[10/11/2023 02:08 PM][pc_autobackup] INFO:Configuration saved successfully
+[10/11/2023 02:11 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:11 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:11 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:11 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:12 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:13 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:13 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:13 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:13 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:13 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:29 PM][pc_autobackup] INFO:Creating /home/warwickh/camera/new/dlna_web_root/SAMSUNGAutoBackupDESC.ini
+[10/11/2023 02:29 PM][pc_autobackup] INFO:Configuration saved successfully
+[10/11/2023 02:31 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:31 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:31 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:31 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:31 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:32 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:32 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:32 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:32 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:32 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:42 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:42 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:42 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:42 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:42 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 02:44 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:44 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:44 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:44 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:45 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:45 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:45 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:45 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to b'192.168.25.82:24234'
+[10/11/2023 02:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to b'192.168.25.82:24235'
+[10/11/2023 02:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to b'192.168.25.82:24236'
+[10/11/2023 02:46 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:46 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:46 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:46 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:48 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:48 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:48 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:48 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:49 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:49 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:49 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:49 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:49 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:49 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:49 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:56 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:56 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:56 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:56 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:57 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:57 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:57 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:59 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:59 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:59 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:59 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 02:59 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 02:59 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 02:59 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 02:59 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 02:59 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 02:59 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 02:59 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:01 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 03:01 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:01 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:01 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:01 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:01 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:01 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:02 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 03:02 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:02 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:02 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:12 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:12 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:13 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:13 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:20 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 03:20 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:20 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:20 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:20 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:20 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:20 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:20 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:21 PM][pc_autobackup] INFO:PCAutoBackup started on all interfaces
+[10/11/2023 03:21 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:21 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:21 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:21 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:21 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:22 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:26 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 03:26 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:26 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:26 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:26 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:26 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:26 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:26 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:32 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 03:32 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:32 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:32 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:33 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:33 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:33 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:33 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:54 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 03:54 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:54 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:54 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:55 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:55 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:55 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:55 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:55 PM][pc_autobackup.mediaserver] ERROR:Unhandled POST request from 192.168.25.82: b'/upnp/control/ContentDirectory1'
+[10/11/2023 03:58 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 03:58 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 03:58 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 03:58 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 03:58 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 03:58 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 03:58 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 03:58 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:58 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 03:59 PM][pc_autobackup.mediaserver] INFO:Backup complete for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:00 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:00 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:00 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:00 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:00 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:00 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:00 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:27 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:27 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:27 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:27 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:27 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:27 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:27 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:27 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:28 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:30 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:30 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:30 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:30 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:30 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:30 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:30 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:30 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:30 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:31 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:31 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:31 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:31 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:31 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:31 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:31 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:33 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:33 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:33 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:33 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:34 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:34 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:34 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:34 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:34 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:34 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:34 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:34 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:35 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:36 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:36 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:36 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:36 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:36 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:36 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:36 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:37 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:37 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:37 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:37 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:37 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:37 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:37 PM][pc_autobackup.mediaserver] INFO:Backup complete for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:37 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:37 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:37 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:38 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:38 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:38 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:38 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:38 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:38 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:38 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:38 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:38 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:39 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:39 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:39 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:39 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:39 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:39 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:39 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:39 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:39 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:39 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:40 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:40 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:40 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:40 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:40 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:40 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:40 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:40 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:40 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:40 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:40 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:41 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:41 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:41 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:41 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:41 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:41 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:41 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:41 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:41 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:42 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:42 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:42 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:42 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:42 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:42 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:43 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:43 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:43 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:43 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:43 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:43 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:43 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:43 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:43 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:43 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:43 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:44 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:44 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:44 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:44 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:44 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:44 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:44 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:44 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:44 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:45 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:45 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:45 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:45 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:45 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:45 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:45 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:45 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:45 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:46 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:46 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:46 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:46 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:46 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:46 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:46 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:46 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:46 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:48 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:48 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:48 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:48 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:48 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver.backup] INFO:Creating output dir /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2864.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 04:48 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2864.JPG saved successfully
+[10/11/2023 04:50 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:50 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:50 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:50 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2864.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 04:50 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2864.JPG saved successfully
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:52 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:52 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:52 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:52 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:52 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2864.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 04:52 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2864.JPG saved successfully
+[10/11/2023 04:54 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 04:54 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 04:54 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 04:54 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 04:54 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 04:54 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 04:54 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2864.JPG (image/jpeg size:4274020)
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2864.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 04:54 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2864.JPG saved successfully
+[10/11/2023 05:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 05:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 05:50 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 05:50 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 05:50 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 05:50 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2865.JPG (image/jpeg size:1313407)
+[10/11/2023 05:51 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2865.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 05:51 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2865.JPG saved successfully
+[10/11/2023 06:18 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 06:18 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 06:18 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 06:18 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 06:18 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 06:18 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 06:18 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2865.JPG (image/jpeg size:1313407)
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2865.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 06:18 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2865.JPG saved successfully
+[10/11/2023 06:22 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 06:22 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 06:22 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 06:22 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 06:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 06:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 06:22 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2865.JPG (image/jpeg size:1313407)
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2865.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 06:22 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2865.JPG saved successfully
+[10/11/2023 06:24 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 06:24 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 06:24 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 06:24 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 06:24 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 06:24 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 06:24 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 06:24 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:24 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:24 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 06:24 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2865.JPG (image/jpeg size:1313407)
+[10/11/2023 06:25 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2865.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 06:25 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2865.JPG saved successfully
+[10/11/2023 06:31 PM][pc_autobackup] INFO:PCAutoBackup started on 192.168.25.18
+[10/11/2023 06:31 PM][pc_autobackup] INFO:Server name: [PC]AutoBackup
+[10/11/2023 06:31 PM][pc_autobackup] INFO:SSDPServer started
+[10/11/2023 06:31 PM][pc_autobackup] INFO:MediaServer started
+[10/11/2023 06:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24234
+[10/11/2023 06:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24235
+[10/11/2023 06:32 PM][pc_autobackup.ssdp] INFO:Sending SSDP response to 192.168.25.82:24236
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver] INFO:New connection from 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver] INFO:Starting backup for 192.168.25.82 (Samsung User-Agent DLNADOC/1.50)
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver] ERROR:Unhandled soapaction: "urn:schemas-upnp-org:service:ContentDirectory:1#Browse"
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver] INFO:Ready to receive SAM_2865.JPG (image/jpeg size:1313407)
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver.backup] INFO:Saving SAM_2865.JPG to /home/warwickh/PCAutoBackup/2011-01-01
+[10/11/2023 06:32 PM][pc_autobackup.mediaserver.backup] INFO:SAM_2865.JPG saved successfully

@@ -3,7 +3,7 @@
 
 __author__ = 'jeff@rebeiro.net (Jeff Rebeiro)'
 
-import ConfigParser
+import configparser
 import logging
 import os
 import re
@@ -92,7 +92,7 @@ def LoadOrCreateConfig(config_file=None):
 
   logger = logging.getLogger('pc_autobackup.common')
 
-  config = ConfigParser.RawConfigParser()
+  config = configparser.RawConfigParser()
   config.read(config_file)
 
   if not config.has_section('AUTOBACKUP'):
@@ -108,7 +108,7 @@ def LoadOrCreateConfig(config_file=None):
   if not config.has_option('AUTOBACKUP', 'uuid'):
     config.set('AUTOBACKUP', 'uuid', GenerateUUID())
 
-  with open(config_file, 'wb') as file:
+  with open(config_file, 'w') as file:
     config.write(file)
 
   return config
