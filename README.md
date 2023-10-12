@@ -12,7 +12,7 @@ If you'd like to donate to the development of PC AutoBackup use the following li
 # Getting Started #
 
 ## Requirements ##
-  * [Python 2.5+](http://python.org/download/releases/2.7.3/) _Python 3.x not yet tested_
+  * [Python 3+](http://python.org/download)
   * [Twisted](http://twistedmatrix.com/trac/wiki/Downloads)
 
 ## Configuring your camera ##
