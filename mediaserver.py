@@ -214,6 +214,7 @@ class MediaServer(Resource):
 
     if request.path == '/cd/content':
       response = self.ReceiveUpload(request)
+      print(f"response returned from content is {type(response)}")
     elif request.path == '/upnp/control/ContentDirectory1':
       response = self.GetContentDirectoryResponse(request)
       print(f"Got a response for dir {response}")
@@ -230,6 +231,7 @@ class MediaServer(Resource):
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
     print(f"Got response, is it logged????? {response}")
+    print(f"response is {type(response)}")
     return response
 
   def GetContentDirectoryResponse(self, request):
@@ -388,7 +390,7 @@ class MediaServer(Resource):
     Returns:
       An empty string
     """
-    response = '',
+    response = ''
     #for r in request.args:
     #    print(r)
     obj_id = request.args[b'didx'][0].split(b'=')[1]
@@ -396,7 +398,6 @@ class MediaServer(Resource):
 
     data = request.content.read()
     backup.WriteObject(obj_id, data)
-
     return response
 
 
