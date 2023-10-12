@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+  pc-autobackup27:
+    container_name: pc-autobackup27
+    volumes:
+       - '~/PCAutoBackup:/root/PCAutoBackup'
+       - '~/.pc_autobackup.cfg:/root/.pc_autobackup.cfg'
+    network_mode: dlna_macvlan
+    ports:
+      - '1900:1900/udp'
+    restart: unless-stopped
+    build:
+     context: ./
+
