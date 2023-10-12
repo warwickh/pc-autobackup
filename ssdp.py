@@ -31,29 +31,18 @@ class SSDPServer(DatagramProtocol):
 
   def datagramReceived(self, datagram, address):
     datagram = datagram.decode("utf-8")
-    if not address[0]=='192.168.25.82':
-        return
-    #print(type(datagram))
-    #print(f"{address} {datagram}")
     m = MSEARCH.match(datagram)
     if m:
       # TODO(jrebeiro): Verify that MediaServer is the only discovery request
       #                 PCAutoBackup responds to.
       msearch_data = self.ParseSSDPDiscovery(datagram)
-      #print(f"{address} {datagram}")
-      #print(f"m here {m}")
-      #print(f"msearch_data {msearch_data}")
-
-    
-
       address_info = ':'.join([str(x) for x in address])
       if msearch_data.get('discovery_type'):
         self.logger.debug(f'Received SSDP M-SEARCH for {msearch_data.get("discovery_type")} from {address_info}')
       else:
-        self.logger.debug('Received SSDP M-SEARCH from {address_info}')
+        self.logger.debug(f'Received SSDP M-SEARCH from {address_info}')
 
       host_ip,host_port = self.GetHostAddress(address)
-      #print(f"detected {host_ip} {host_port}")
       self.logger.debug('Received SSDP M-SEARCH on interface %s', host_ip)
 
       if self.config.has_option('AUTOBACKUP', 'default_interface'):
@@ -122,7 +111,6 @@ class SSDPServer(DatagramProtocol):
         # ST: urn:schemas-upnp-org:device:MediaServer:1
         if m.group(1) == 'ST':
           if m.group(2).startswith('urn:schemas-upnp-org:device:'):
-            #print(f"I should get here with {m.group(2)}")
             parsed_data['discovery_type'] = m.group(2).split(':')[3]
 
     return parsed_data
@@ -138,12 +126,10 @@ class SSDPServer(DatagramProtocol):
                                          host_ip,
                                          self.config.get('AUTOBACKUP', 'uuid'))
     response=response.encode('UTF-8')
-    #address=address.encode('UTF-8')
     address_info = ':'.join([str(x) for x in address])
     self.logger.info('Sending SSDP response to %s', address_info)
     self.logger.debug('Sending SSDP response to %s: %r', address_info,
                       response)
-    #print(type(response))
     self.transport.write(response, address)
 
   def GetHostAddress(self, address):

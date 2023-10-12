@@ -197,7 +197,6 @@ class MediaServer(Resource):
 
   def render_POST(self, request):
     request.path = request.path.decode("UTF-8")
-    print(f"New post at {request.path}")
     self.logger.debug('Request args for %s from %s: %s', request.path,
                       request.getClientIP(), request.args)
     self.logger.debug('Request headers for %s from %s: %s', request.path,
@@ -206,10 +205,8 @@ class MediaServer(Resource):
 
     if request.path == '/cd/content':
       response = self.ReceiveUpload(request)
-      print(f"response returned from content is {type(response)}")
     elif request.path == '/upnp/control/ContentDirectory1':
       response = self.GetContentDirectoryResponse(request)
-      print(f"Got a response for dir {response}")
     else:
       self.logger.error('Unhandled POST request from %s: %s',
                         request.getClientIP(), request.path)
@@ -222,8 +219,6 @@ class MediaServer(Resource):
     request.setHeader("Content-Type", "text/xml; charset=utf-8")
     self.logger.debug('Sending response for %s to %s: %s', request.path,
                       request.getClientIP(), response)
-    print(f"Got response, is it logged????? {response}")
-    print(f"response is {type(response)}")
     return response
 
   def GetContentDirectoryResponse(self, request):
@@ -242,7 +237,6 @@ class MediaServer(Resource):
     request.content.seek(0)
 
     soapaction = request.getHeader('soapaction')
-    print(f"soapaction {soapaction}")
     if soapaction == X_BACKUP_START:
       self.logger.info('Starting backup for %s (%s)', request.getClientIP(),
                        self.clients[request.getClientIP()])
@@ -287,7 +281,6 @@ class MediaServer(Resource):
         response_dict['didl'] = common.EscapeHTML(didl)
         response = CREATE_OBJ_RESPONSE % response_dict
     elif soapaction == X_BACKUP_DONE:
-      print(self.clients)
       self.logger.info(f'Backup complete for {request.getClientIP()} ({self.clients[request.getClientIP()]})')
       response = X_BACKUP_RESPONSE % 'DONE'
     else:
@@ -380,8 +373,6 @@ class MediaServer(Resource):
       An empty string
     """
     response = ''
-    #for r in request.args:
-    #    print(r)
     obj_id = request.args[b'didx'][0].split(b'=')[1]
     backup = Backup(self.config_file)
 
