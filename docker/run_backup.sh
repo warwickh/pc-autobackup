@@ -1,2 +1,3 @@
 cd pc-autobackup
-python pc_autobackup.py
+python3 pc_autobackup.py
+sleep infinity

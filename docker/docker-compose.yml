@@ -1,8 +1,8 @@
 version: '3.2'
 
 services:
-  pc-autobackup27:
-    container_name: pc-autobackup27
+  pc-autobackup:
+    container_name: pc-autobackup
     volumes:
        - '~/PCAutoBackup:/root/PCAutoBackup'
        - '~/.pc_autobackup.cfg:/root/.pc_autobackup.cfg'
