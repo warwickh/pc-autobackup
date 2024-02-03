@@ -33,11 +33,13 @@ If you'd like to donate to the development of PC AutoBackup use the following li
 
   * DV300F
   * NX1000
+  * NX1100
   * WB150F
   * WB350F
   * ST200F
   * NX2000
   * NX300
+  * NX300M
   * EX2F
   * Does it work with your camera? Send me a pull request editing this README.
 
@@ -48,6 +50,7 @@ If you'd like to donate to the development of PC AutoBackup use the following li
   * Ubuntu 16.04 (xenial) 64-bit
   * Ubuntu 22.04 (jammy)
   * Mac OS X 10.8.2 (Mountain Lion)
+  * macOS 14.2.1 (Sonoma)
 
 ## **Tested on the following Python versions:** ##
 
